@@ -1,0 +1,28 @@
+@import '~materialize-css/dist/css/materialize.min.css';
+
+.gap-10 {
+  margin-right: 10px;
+}
+
+.title {
+  text-align: center;
+}
+
+input.yellow-input {
+  border-color: white !important;
+  box-shadow: 0 1px 0 0 white !important;
+  color: white !important;
+}
+
+input.yellow-input + label {
+  color: white !important;
+}
+
+input.yellow-input:focus {
+  border-color: #ffeb3b !important;
+  box-shadow: 0 1px 0 0 #ffeb3b !important;
+}
+
+td:not(:last-child) {
+  cursor: pointer;
+}
